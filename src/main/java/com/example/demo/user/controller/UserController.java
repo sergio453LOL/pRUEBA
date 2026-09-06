@@ -19,11 +19,6 @@ public class UserController {
         return "User: " + email;
     };
 
-    @GetMapping ("/age/{age}")
-    public String getUserByAge(Integer age) {
-        return "User: " + age;
-    };
-
 
 }
 //saiodoidjadiojsdsdadasd//
