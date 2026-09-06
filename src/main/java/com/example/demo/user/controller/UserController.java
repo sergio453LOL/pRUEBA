@@ -15,7 +15,7 @@ public class UserController {
     };
 
     @GetMapping("/email/{email}")
-    public String getUserByEmail(String email) {
+    dsdsdpublic String getUserByEmail(String email) {
         return "User: " + email;
     };ddd
 
