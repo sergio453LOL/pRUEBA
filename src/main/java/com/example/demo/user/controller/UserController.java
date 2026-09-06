@@ -24,10 +24,6 @@ public class UserController {
         return "User: " + age;
     };
 
-    @GetMapping("/id/{id}")
-    public String getUserById(String id) {
-        return "User: " + id;
-    };
 
 }
 //saiodoidjadiojsdsdadasd//
